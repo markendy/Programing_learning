@@ -1,0 +1,7 @@
+C:\Users\Алек\Documents\labs2K\Программирование\temp\kat9\kat9\kat9\bin\Debug\kat9.exe.config
+C:\Users\Алек\Documents\labs2K\Программирование\temp\kat9\kat9\kat9\bin\Debug\kat9.exe
+C:\Users\Алек\Documents\labs2K\Программирование\temp\kat9\kat9\kat9\bin\Debug\kat9.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\temp\kat9\kat9\kat9\obj\Debug\kat9.csprojAssemblyReference.cache
+C:\Users\Алек\Documents\labs2K\Программирование\temp\kat9\kat9\kat9\obj\Debug\kat9.csproj.CoreCompileInputs.cache
+C:\Users\Алек\Documents\labs2K\Программирование\temp\kat9\kat9\kat9\obj\Debug\kat9.exe
+C:\Users\Алек\Documents\labs2K\Программирование\temp\kat9\kat9\kat9\obj\Debug\kat9.pdb

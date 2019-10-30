@@ -1,0 +1,7 @@
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\8-14\8-14\8-14\bin\Debug\8-14.exe.config
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\8-14\8-14\8-14\bin\Debug\8-14.exe
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\8-14\8-14\8-14\bin\Debug\8-14.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\8-14\8-14\8-14\obj\Debug\8-14.csprojAssemblyReference.cache
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\8-14\8-14\8-14\obj\Debug\8-14.csproj.CoreCompileInputs.cache
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\8-14\8-14\8-14\obj\Debug\8-14.exe
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\8-14\8-14\8-14\obj\Debug\8-14.pdb

@@ -1,0 +1,10 @@
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\bin\Debug\lab456.exe.config
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\bin\Debug\lab456.exe
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\bin\Debug\lab456.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\obj\Debug\lab456.csprojAssemblyReference.cache
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\obj\Debug\lab456.Form1.resources
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\obj\Debug\lab456.Properties.Resources.resources
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\obj\Debug\lab456.csproj.GenerateResource.cache
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\obj\Debug\lab456.csproj.CoreCompileInputs.cache
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\obj\Debug\lab456.exe
+C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab3,4,5\lab456\lab456\obj\Debug\lab456.pdb

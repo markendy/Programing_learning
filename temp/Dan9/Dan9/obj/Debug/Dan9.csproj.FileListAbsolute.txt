@@ -1,0 +1,20 @@
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\bin\Debug\Dan9.exe.config
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\bin\Debug\Dan9.exe
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\bin\Debug\Dan9.pdb
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\obj\Debug\Dan9.csprojAssemblyReference.cache
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\obj\Debug\Dan9.Form1.resources
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\obj\Debug\Dan9.Properties.Resources.resources
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\obj\Debug\Dan9.csproj.GenerateResource.cache
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\obj\Debug\Dan9.csproj.CoreCompileInputs.cache
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\obj\Debug\Dan9.exe
+C:\Users\9853\Documents\vuz\K 2\temp\Dan9\Dan9\obj\Debug\Dan9.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\bin\Debug\Dan9.exe.config
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\bin\Debug\Dan9.exe
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\bin\Debug\Dan9.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\obj\Debug\Dan9.csprojAssemblyReference.cache
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\obj\Debug\Dan9.Form1.resources
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\obj\Debug\Dan9.Properties.Resources.resources
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\obj\Debug\Dan9.csproj.GenerateResource.cache
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\obj\Debug\Dan9.csproj.CoreCompileInputs.cache
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\obj\Debug\Dan9.exe
+C:\Users\Алек\Documents\labs2K\Программирование\temp\Dan9\Dan9\obj\Debug\Dan9.pdb
