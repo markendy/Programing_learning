@@ -11,14 +11,17 @@ namespace L15
     {
         static void Main(string[] args)
         {
+            Directory.Delete("C:/temp/",true); 
             Directory.CreateDirectory("C:/temp/K1");
             Directory.CreateDirectory("C:/temp/K2");
-            File.Create("C:/temp/K1/t1.txt");
+
             StreamWriter fl1 = new StreamWriter("C:/temp/K1/t1.txt");
             StreamWriter fl2 = new StreamWriter("C:/temp/K1/t2.txt");
             fl1.WriteLine("Иванов Иван Иаванович, 1965 г рождения, место жительства г. Саратов");
             fl2.WriteLine("Петров Сергей Федорович 1966 г рождения, место жительства г. Энгельс");
-            File.Create("C:/temp/K2/t3.txt");
+            fl1.Close();
+            fl2.Close();
+
             StreamWriter fl3 = new StreamWriter("C:/temp/K2/t3.txt");
             StreamReader fl1_r = new StreamReader("C:/temp/K1/t1.txt");
             StreamReader fl2_r = new StreamReader("C:/temp/K1/t2.txt");
@@ -26,6 +29,8 @@ namespace L15
             string fl_s2 = fl2_r.ReadLine();
             fl3.WriteLine(fl_s1);
             fl3.WriteLine(fl_s2);
+            fl3.Close();
+
             FileInfo flInf = new FileInfo("C:/temp/K1/t1.txt");
             Console.WriteLine("Name 1: "+flInf.FullName);
             Console.WriteLine("Path 1: "+flInf.DirectoryName);
@@ -38,17 +43,29 @@ namespace L15
             Console.WriteLine("Name 3: " + flInf.FullName);
             Console.WriteLine("Path 3: " + flInf.DirectoryName);
             Console.WriteLine("Length 3: " + flInf.Length);
-            File.Move("C:/temp/K1/t2.txt", "C:/temp/K2/t2.txt");
-            File.Move("C:/temp/K1/t1.txt", "C:/temp/K2/t1.txt");
-            File.Move("C:/temp/K1", "C:/temp/All");
-            DirectoryInfo dirIf= new DirectoryInfo("C:/temp/All");
-            foreach (var item in dirIf)
+            fl1_r.Close();
+            fl2_r.Close();
+
+            flInf = new FileInfo("C:/temp/K1/t2.txt");
+            flInf.MoveTo("C:/temp/K2/t2.txt");
+            flInf = new FileInfo("C:/temp/K1/t1.txt");
+            flInf.MoveTo("C:/temp/K2/t1.txt");
+
+            Directory.Move("C:/temp/K2", "C:/temp/All");
+
+            Directory.Delete("C:/temp/K1");
+
+            Console.WriteLine("\nlast:\n");
+            DirectoryInfo di = new DirectoryInfo("C:/temp/All");
+            foreach (var item in di.GetFiles())
             {
-                
-                Console.WriteLine("Name 3: " + flInf.FullName);
-                Console.WriteLine("Path 3: " + flInf.DirectoryName);
-                Console.WriteLine("Length 3: " + flInf.Length);
+                flInf = item;
+                Console.WriteLine("Name: " + flInf.FullName);
+                Console.WriteLine("Path: " + flInf.DirectoryName);
+                Console.WriteLine("Length: " + flInf.Length);
             }
+
+            Console.ReadLine();
         }
     }
 }
