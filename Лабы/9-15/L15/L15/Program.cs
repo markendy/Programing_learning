@@ -27,8 +27,28 @@ namespace L15
             fl3.WriteLine(fl_s1);
             fl3.WriteLine(fl_s2);
             FileInfo flInf = new FileInfo("C:/temp/K1/t1.txt");
+            Console.WriteLine("Name 1: "+flInf.FullName);
+            Console.WriteLine("Path 1: "+flInf.DirectoryName);
+            Console.WriteLine("Length 1: "+flInf.Length);
             flInf = new FileInfo("C:/temp/K1/t2.txt");
+            Console.WriteLine("Name 2: " + flInf.FullName);
+            Console.WriteLine("Path 2: " + flInf.DirectoryName);
+            Console.WriteLine("Length 2: " + flInf.Length);
             flInf = new FileInfo("C:/temp/K2/t3.txt");
+            Console.WriteLine("Name 3: " + flInf.FullName);
+            Console.WriteLine("Path 3: " + flInf.DirectoryName);
+            Console.WriteLine("Length 3: " + flInf.Length);
+            File.Move("C:/temp/K1/t2.txt", "C:/temp/K2/t2.txt");
+            File.Move("C:/temp/K1/t1.txt", "C:/temp/K2/t1.txt");
+            File.Move("C:/temp/K1", "C:/temp/All");
+            DirectoryInfo dirIf= new DirectoryInfo("C:/temp/All");
+            foreach (var item in dirIf)
+            {
+                
+                Console.WriteLine("Name 3: " + flInf.FullName);
+                Console.WriteLine("Path 3: " + flInf.DirectoryName);
+                Console.WriteLine("Length 3: " + flInf.Length);
+            }
         }
     }
 }
