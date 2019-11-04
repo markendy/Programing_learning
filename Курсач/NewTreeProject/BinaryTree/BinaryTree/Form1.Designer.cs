@@ -52,6 +52,8 @@
             this.отрисоватьДеревоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выбратьЦветОтрисовкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.NameTextBox = new System.Windows.Forms.Label();
+            this.тестовыеЗначенияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -62,7 +64,7 @@
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             "Clear Tree"});
-            this.checkedListBox1.Location = new System.Drawing.Point(5, 185);
+            this.checkedListBox1.Location = new System.Drawing.Point(5, 288);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(122, 19);
@@ -71,7 +73,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(6, 231);
+            this.button1.Location = new System.Drawing.Point(6, 311);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 22);
@@ -82,6 +84,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.NameTextBox);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.checkedListBox1);
             this.groupBox1.Controls.Add(this.Logs);
@@ -91,7 +94,7 @@
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Location = new System.Drawing.Point(12, 41);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(133, 270);
+            this.groupBox1.Size = new System.Drawing.Size(133, 338);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Структура";
@@ -152,7 +155,7 @@
             this.toolStripDropDownButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(556, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(784, 31);
             this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -164,6 +167,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(28, 28);
             this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -194,29 +198,30 @@
             this.вГлубинуToolStripMenuItem,
             this.вШиринуToolStripMenuItem});
             this.задачаToolStripMenuItem.Name = "задачаToolStripMenuItem";
-            this.задачаToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.задачаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.задачаToolStripMenuItem.Text = "Обход";
             // 
             // вГлубинуToolStripMenuItem
             // 
             this.вГлубинуToolStripMenuItem.Name = "вГлубинуToolStripMenuItem";
-            this.вГлубинуToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.вГлубинуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.вГлубинуToolStripMenuItem.Text = "В глубину";
             this.вГлубинуToolStripMenuItem.Click += new System.EventHandler(this.вГлубинуToolStripMenuItem_Click);
             // 
             // вШиринуToolStripMenuItem
             // 
             this.вШиринуToolStripMenuItem.Name = "вШиринуToolStripMenuItem";
-            this.вШиринуToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.вШиринуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.вШиринуToolStripMenuItem.Text = "В ширину";
             this.вШиринуToolStripMenuItem.Click += new System.EventHandler(this.вШиринуToolStripMenuItem_Click_1);
             // 
             // задачиToolStripMenuItem
             // 
             this.задачиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.отображениеУровняToolStripMenuItem});
+            this.отображениеУровняToolStripMenuItem,
+            this.тестовыеЗначенияToolStripMenuItem});
             this.задачиToolStripMenuItem.Name = "задачиToolStripMenuItem";
-            this.задачиToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.задачиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.задачиToolStripMenuItem.Text = "Задачи";
             // 
             // отображениеУровняToolStripMenuItem
@@ -232,7 +237,7 @@
             this.отрисоватьДеревоToolStripMenuItem,
             this.выбратьЦветОтрисовкиToolStripMenuItem});
             this.отрисовкаToolStripMenuItem.Name = "отрисовкаToolStripMenuItem";
-            this.отрисовкаToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.отрисовкаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.отрисовкаToolStripMenuItem.Text = "Отрисовка";
             // 
             // отрисоватьДеревоToolStripMenuItem
@@ -254,19 +259,36 @@
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Location = new System.Drawing.Point(147, 47);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(384, 264);
+            this.pictureBox1.Size = new System.Drawing.Size(625, 332);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            // 
+            // NameTextBox
+            // 
+            this.NameTextBox.AutoSize = true;
+            this.NameTextBox.Location = new System.Drawing.Point(6, 85);
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(56, 13);
+            this.NameTextBox.TabIndex = 10;
+            this.NameTextBox.Text = "Opecation";
+            // 
+            // тестовыеЗначенияToolStripMenuItem
+            // 
+            this.тестовыеЗначенияToolStripMenuItem.Name = "тестовыеЗначенияToolStripMenuItem";
+            this.тестовыеЗначенияToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.тестовыеЗначенияToolStripMenuItem.Text = "Тестовые значения";
+            this.тестовыеЗначенияToolStripMenuItem.Click += new System.EventHandler(this.тестовыеЗначенияToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AcceptButton = this.button2;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 322);
+            this.ClientSize = new System.Drawing.Size(784, 391);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -306,6 +328,8 @@
         private System.Windows.Forms.ToolStripMenuItem отрисовкаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem отрисоватьДеревоToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem выбратьЦветОтрисовкиToolStripMenuItem;
+        private System.Windows.Forms.Label NameTextBox;
+        private System.Windows.Forms.ToolStripMenuItem тестовыеЗначенияToolStripMenuItem;
     }
 }
 

@@ -13,6 +13,7 @@ namespace BinaryTree
     public partial class Form1 : Form
     {
         public Pen MyPen = new Pen(Color.Black, 1);
+
         public Form1()
         {
             InitializeComponent();
@@ -45,7 +46,7 @@ namespace BinaryTree
             private List<Node> OutL = new List<Node>();
             public Node root = null;
             Form1 f_m;
-
+ 
             public Tree() { }
             public Tree(Form1 fr)
             {
@@ -329,7 +330,7 @@ namespace BinaryTree
                     return 0;
                 }
                 return 2;
-            }
+            } 
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -339,6 +340,7 @@ namespace BinaryTree
                 {
                     main_tree.Delete(main_tree.root.Value);
                 }
+            NameTextBox.Text = "Очистка";
             textBox1.Text = Logs.Text = "";
         }
 
@@ -354,6 +356,7 @@ namespace BinaryTree
             }
             finally
             {
+                NameTextBox.Text = "Add element";
                 textBox1.Text = "";
             }
         }
@@ -370,23 +373,24 @@ namespace BinaryTree
             }
             finally
             {
+                NameTextBox.Text = "Del element";
                 textBox1.Text = "";
             }
         }
-
 
         private void вГлубинуToolStripMenuItem_Click(object sender, EventArgs e)
         {
             main_tree.GoToDeep(main_tree.root);
             Logs.Text = main_tree.OutS;
+            NameTextBox.Text = "Обход в глубину";
             main_tree.OutS = "";
         }
 
-        private void поискЗначенияToolStripMenuItem_Click(object sender, EventArgs e)
+        /*private void поискЗначенияToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Logs.Text = Convert.ToString(main_tree.SearchValue(main_tree.root, Convert.ToInt32(textBox1.Text)).ID);
             textBox1.Text = "";
-        }
+        }*/
 
         private void отображениеУровняToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -397,6 +401,7 @@ namespace BinaryTree
             }
             catch
             {
+                NameTextBox.Text = "Отображение уровня";
                 Logs.Text = "String !digital";
             }
         }
@@ -405,6 +410,7 @@ namespace BinaryTree
         {
             main_tree.GoToWeigth(main_tree.root);
             Logs.Text = main_tree.OutS;
+            NameTextBox.Text = "Обход в ширину";
             main_tree.OutS = "";
         }
 
@@ -430,9 +436,12 @@ namespace BinaryTree
             {
                 MyPen.Color = colorDialog1.Color;
             }
+            NameTextBox.Text = "Выбор цвета отрисовки";
         }
+
         private void отрисоватьДеревоToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+            NameTextBox.Text = "Отрисовка дерева";
             pictureBox1.Refresh();
             int max_lvl = 0;
             main_tree.FindLvlDeep(main_tree.root, ref max_lvl);
@@ -443,5 +452,17 @@ namespace BinaryTree
             }
             main_tree.GoToPick(main_tree.root, ref weigthC);
         }
-            }
+
+        private void тестовыеЗначенияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            main_tree.AddDef();
+            NameTextBox.Text = "Тестовые значения";
+            main_tree.OutS = "";
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "help.chm");
+        }
+    }
 }

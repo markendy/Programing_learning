@@ -117,35 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>138, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFmSURBVFhH7ZgxjoQwDEUpKSkpOR4lt+AKdBwBiQaJ29BR
-        b0OZXa/EiGE/Gsf+GWm0FK8hdvIUO1FEFr6y8AmYRadpClVVhSz7meQCGe/7HubHEi2qETzDEI4SFcmi
-        KKDMK/I8h3NqUYteSdZ1DePbtv0TK99QrAa1aFmWT4teCZ5pmuaR49lVtahFUhiG4SkXxWgwiaLxK86V
-        QDEa1KJSttjFpK+PkjGVOKMW3Q9HzGKs3RTUorEwd1NIIoquMhQXA10USXp3U6CLWu/bV1BF2X15hCaa
-        oi+PUERT9eURimiqvjxCEU0tKdBF0TiDW5TN/xK1PAFjoYhanoCxUETfwS3K5hZlQxPdti0syxLWdYXj
-        Xiii8zw/7lGh67pfaRRrxS16ltzx/GdCuESl3EhyB+VYcYlKeZHgDsqx4hKVg4MEd1COFXePysFBkgKK
-        t+IWlfKjn7bjOMJ4K27Rd3GLsvkQ0Sx8A2uo/2+HjJSNAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="toolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE7SURBVFhH7ZbBDcIwDEUzQi8c2aEjdAt2YQJWYBAOjMIC
-        HFii6FcyCtZ3SNNAguTDU9U6sV+dtEo43x7zWsZxnEMIy5XFBRknfBqfYpWoFB6GYb7c98s1Lq7FZJyA
-        e4mtlc4WRWJdWBdncQuMZ3UsskQtyS1UF/2GJIhXImcbfBRFIlaoJiKdEu5CVICwJZsU/dayp7BkTdEW
-        kgJWUftQ0ZaSgHX1TRRBvE1LSUF39SXauosaU/SXX3cOVLS3bgIq2ls3wX+Lyu+ATWiF/kV1+zGBuKsu
-        WgMqij2BQEzrfUtFGUz+l6C+uCRFc0DC6/FAQYzNKcFFgYuW4KIKFwUuWoKLKlwU/KUojoy4LyYuWgKS
-        MEmAmAjiyHYKu2IW0a1vi/mW6FZBIUzTtDmZdcCuJQkCe9gjLlqX3fwE/qlVfOgApUAAAAAASUVORK5C
-        YII=
-</value>
-  </data>
 </root>
