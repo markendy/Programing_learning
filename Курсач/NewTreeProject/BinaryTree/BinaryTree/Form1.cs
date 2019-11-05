@@ -39,6 +39,7 @@ namespace BinaryTree
                 ID = i;
             }
         }
+
         public class Tree
         {
             public int Count = 0;
@@ -71,11 +72,11 @@ namespace BinaryTree
                 {
                     if (PerevParnt(obj) == 1)
                     {
-                        g.DrawRectangle(new Pen(Color.Green), x, y, w_r, h_r);
+                        g.DrawRectangle(new Pen(Color.Red), x, y, w_r, h_r);
                     }
                     else if (PerevParnt(obj) == 2)
                     {
-                        g.DrawRectangle(new Pen(Color.Red), x, y, w_r, h_r);
+                        g.DrawRectangle(new Pen(Color.Green), x, y, w_r, h_r);
                     }
                     g.DrawString(obj.Value + " < " + obj.parent.Value, new Font("Courier New", 10), new SolidBrush(f_m.MyPen.Color), new Point(x + 2, y + 2));
                 }
@@ -91,6 +92,18 @@ namespace BinaryTree
                 Add(5);
             }
             //Обходы:
+            public void AllDraw()
+            {
+                f_m.pictureBox1.Refresh();
+                int max_lvl = 0;
+                FindLvlDeep(root, ref max_lvl);
+                List<int> weigthC = new List<int>();
+                for (int i = 0; i <= max_lvl; i++)
+                {
+                    weigthC.Add(0);
+                }
+                GoToPick(root, ref weigthC);
+            }
             public void GoToPick(Node obj, ref List<int> xI)
             {
                 if (root == null)
@@ -174,6 +187,7 @@ namespace BinaryTree
                 {
                     AddC(root, v);
                 }
+                AllDraw();
                 Count++;
             }
             private void AddC(Node obj, int v)
@@ -213,6 +227,8 @@ namespace BinaryTree
                 {
                     DelC(root, v);
                 }
+                AllDraw();
+                Count--;
             }
             private void DelC(Node obj, int v)
             {
@@ -340,6 +356,7 @@ namespace BinaryTree
                 {
                     main_tree.Delete(main_tree.root.Value);
                 }
+            main_tree.AllDraw();
             NameTextBox.Text = "Очистка";
             textBox1.Text = Logs.Text = "";
         }
@@ -386,12 +403,6 @@ namespace BinaryTree
             main_tree.OutS = "";
         }
 
-        /*private void поискЗначенияToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Logs.Text = Convert.ToString(main_tree.SearchValue(main_tree.root, Convert.ToInt32(textBox1.Text)).ID);
-            textBox1.Text = "";
-        }*/
-
         private void отображениеУровняToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -416,9 +427,6 @@ namespace BinaryTree
 
         private void отрисоватьДеревоToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            /*panel1.AutoScroll = true;//pictureBox1
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
-            */
             pictureBox1.Refresh();
             int max_lvl = 0;
             main_tree.FindLvlDeep(main_tree.root, ref max_lvl);
@@ -442,15 +450,7 @@ namespace BinaryTree
         private void отрисоватьДеревоToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             NameTextBox.Text = "Отрисовка дерева";
-            pictureBox1.Refresh();
-            int max_lvl = 0;
-            main_tree.FindLvlDeep(main_tree.root, ref max_lvl);
-            List<int> weigthC = new List<int>();
-            for (int i = 0; i <= max_lvl; i++)
-            {
-                weigthC.Add(0);
-            }
-            main_tree.GoToPick(main_tree.root, ref weigthC);
+            main_tree.AllDraw();
         }
 
         private void тестовыеЗначенияToolStripMenuItem_Click(object sender, EventArgs e)
