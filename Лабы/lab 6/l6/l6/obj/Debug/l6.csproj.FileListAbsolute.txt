@@ -8,3 +8,13 @@ C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab
 C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab 6\l6\l6\obj\Debug\l6.csproj.CoreCompileInputs.cache
 C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab 6\l6\l6\obj\Debug\l6.exe
 C:\Users\Алек\Documents\labs2K\Программирование\Лабы\lab 6\l6\l6\obj\Debug\l6.pdb
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\bin\Debug\l6.exe.config
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\bin\Debug\l6.exe
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\bin\Debug\l6.pdb
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\obj\Debug\l6.csprojAssemblyReference.cache
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\obj\Debug\l6.Form1.resources
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\obj\Debug\l6.Properties.Resources.resources
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\obj\Debug\l6.csproj.GenerateResource.cache
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\obj\Debug\l6.csproj.CoreCompileInputs.cache
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\obj\Debug\l6.exe
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Лабы\lab 6\l6\l6\obj\Debug\l6.pdb
