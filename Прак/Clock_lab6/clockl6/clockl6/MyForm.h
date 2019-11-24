@@ -124,13 +124,13 @@ namespace clockl6 {
 		float cX_Old;
 		float cY_Old;
 		int t = 0;
-		float x, y;
+		float x, y, xt, yt;
 
 	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 		float radius = 100;
 		float lengthStr = radius / 2.0f;
-		float cX = pictureBox1->Location.X + 10;
-		float cY = pictureBox1->Location.Y + 10;
+		float cX = pictureBox1->Location.X + 20;
+		float cY = pictureBox1->Location.Y + 20;
 		
 		Graphics^ g= pictureBox1->CreateGraphics();
 
@@ -140,16 +140,19 @@ namespace clockl6 {
 
 		p->Color = Color::White;
 		g->DrawLine(p, cX + radius, cY + radius, x, y);
+		g->DrawEllipse(gcnew Pen(Color::White, 2), xt, yt, 5.0f, 5.0f);//round
 		x = cX + radius + radius * sin(fi);
 		y = cY + radius - radius * cos(fi);
+		xt = cX + radius - (radius+10.0f) * sin(fi);
+		yt = cY + radius - (radius+10.0f) * cos(fi);
 		p->Color = Color::Red;
 		t++;
 		if (t % 2 != 0) {
 			p->Color = Color::Blue;
 		}
-		g->DrawLine(p, cX+radius, cY+radius, x,y );
-		
-		g->DrawEllipse(gcnew Pen(Color::Purple,2), cX, cY, radius*2, radius*2);
+		g->DrawLine(p, cX+radius, cY+radius, x,y );//стрелка
+		g->DrawEllipse(gcnew Pen(Color::Orange, 2), xt, yt, 5.0f, 5.0f);//round
+		g->DrawEllipse(gcnew Pen(Color::Purple, 2), cX, cY, radius*2, radius*2);
 
 		cX_Old = x;
 		cY_Old = y;
