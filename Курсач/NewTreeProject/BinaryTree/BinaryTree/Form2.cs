@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BinaryTree
 {
-    public partial class Form2 : Form
+    public partial class Autorisation : Form
     {
-        public Form2()
+        public Autorisation()
         {
             InitializeComponent();
             logpas = new Dictionary<string, string>();
@@ -31,7 +31,7 @@ namespace BinaryTree
         {
             if (LoginCheck())
             {
-                Form1 f = new Form1();
+                mainform f = new mainform();
                 f.Show();
                 this.Hide();
             }

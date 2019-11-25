@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace BinaryTree
 {
-    public partial class Form1 : Form
+    public partial class mainform : Form
     {
         public Pen MyPen = new Pen(Color.Black, 1);
 
-        public Form1()
+        public mainform()
         {
             InitializeComponent();
             main_tree = new Tree(this);
@@ -46,10 +46,10 @@ namespace BinaryTree
             public string OutS = "";
             private List<Node> OutL = new List<Node>();
             public Node root = null;
-            Form1 f_m;
+            mainform f_m;
  
             public Tree() { }
-            public Tree(Form1 fr)
+            public Tree(mainform fr)
             {
                 f_m = fr;
             }

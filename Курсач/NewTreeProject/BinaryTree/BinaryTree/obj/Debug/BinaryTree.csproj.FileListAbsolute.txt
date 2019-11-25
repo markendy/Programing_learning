@@ -18,3 +18,13 @@ C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_lear
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.exe
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe.config
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.Properties.Resources.resources
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.GenerateResource.cache
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.exe
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.mainform.resources
+C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.Autorisation.resources
