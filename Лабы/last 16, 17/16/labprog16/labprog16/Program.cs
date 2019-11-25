@@ -43,6 +43,8 @@ namespace labprog16
     {
         static void Main(string[] args)
         {
+            MyRolick r1 = new MyRolick("Me");
+            r1.Dispose();
         }
     }
 }
