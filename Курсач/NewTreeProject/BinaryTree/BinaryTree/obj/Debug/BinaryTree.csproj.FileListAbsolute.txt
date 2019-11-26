@@ -11,8 +11,6 @@ C:\Users\Алек\Documents\labs2K\Программирование\Курсач
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe.config
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
-C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojAssemblyReference.cache
-C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.Form1.resources
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.Properties.Resources.resources
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.GenerateResource.cache
 C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
@@ -28,3 +26,5 @@ C:\Users\Алек\Documents\labs2K\Программирование\Programing_l
 C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
 C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.mainform.resources
 C:\Users\Алек\Documents\labs2K\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.Autorisation.resources
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.mainform.resources
+C:\Users\9853\Documents\vuz\K 2\Программирование\Programing_learning\Курсач\NewTreeProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.Autorisation.resources
